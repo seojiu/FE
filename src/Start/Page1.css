@@ -1,0 +1,104 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Noto Sans KR', sans-serif;
+  align-items: center;
+}
+
+.content {
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image-container {
+  width: 100%;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30vh; /* Adjust margin as needed to move content down */
+
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/Logo.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
+  height: 13vh; /* Adjust height as needed */
+  width: 100%;
+  text-align: center;
+  margin-top: 0; /* Adjust margin as needed */
+}
+
+.main-text {
+  margin-top: 0;
+  color: rgba(0, 0, 0, 1);
+  font-size: 21px;
+  margin-bottom: 2vh; /* Add spacing between main and sub text */
+  font-weight: 900;
+}
+
+.sub-text {
+  color: rgba(0, 0, 0, 1);
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22vh;
+}
+
+.login-text {
+  color: rgba(39, 39, 49, 1);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.login-link {
+  color: rgba(248, 73, 130, 1);
+  font-size: 14px;
+  margin-left: 4vw;
+  font-weight: 800;
+}
+
+.button-container {
+  background-color: rgba(175, 50, 233, 1);
+  width: 90%;
+  height: 7vh;
+  border-radius: 1vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+}
+
+.button-text {
+  color: rgba(255, 255, 255, 1);
+  font-size: 19px;
+  font-weight: 600;
+}

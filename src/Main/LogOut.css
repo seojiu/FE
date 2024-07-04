@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .content {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .top-bar10 {
+    margin-top: 6vh;
+    margin-bottom: 0vh;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .top-bar10 img {
+    height: 30px;
+    width: 30px;
+    margin-left: 10px; /* 이미지와 텍스트 사이의 간격 조정 */
+  }
+  
+  .text-10-1 {
+    font-weight: 900;
+    margin-left: -25px;
+    flex-grow: 1; /* 텍스트가 나머지 공간을 채우도록 함 */
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    color: #272731;
+  }
+
+
+  
+
+  .line-10 {
+    margin-top: 1px;
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3vh;
+  }
+  
+  .line-bar-10 {
+    background-color: #767676;;
+    width: 100%;
+    height: 0.1vh;
+    border-radius: 2.5vh;
+  }
+
+  .text-10-2 {
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: left; /* 왼쪽 정렬 */
+    padding-left: 8vw; 
+  }
+  
+  .text-group-10 {
+    width: 100%;
+  }
+
+  

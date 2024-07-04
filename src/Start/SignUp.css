@@ -1,0 +1,207 @@
+.container7 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
+  .content7 {
+    background-color: rgba(255, 255, 255, 1);
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+
+
+.top-bar7 {
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1);
+  }
+  
+  .top-bar7 img {
+    height: 25px;
+    width: 25px;
+    margin-left: 10px; /* 이미지와 텍스트 사이의 간격 조정 */
+  }
+  
+  .text-7-1 {
+    font-weight: 900;
+    margin-left: -25px;
+    flex-grow: 1; /* 텍스트가 나머지 공간을 채우도록 함 */
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    color: #272731;
+  }
+
+
+
+
+
+.signup-form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signup-form div {
+    margin-bottom: 10px;
+}
+
+
+.group {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.signup-form input::placeholder {
+    color: #aaa;
+}
+
+.signup-form .password-field {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 80%;
+}
+
+.signup-form .password-field input {
+    font-size: 15px;
+    text-align: left;
+    border-radius: 8px;
+    height: 5.8vh;
+    width: 100%;
+    background-color: rgba(247, 248, 249, 1);
+    color: rgba(0, 0, 0, 0.5);
+    border: 1px solid #ccc;
+    padding-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.signup-form .checkbox-group {
+
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 10vh;
+
+    width: 80vw;
+    display: flex;
+    
+}
+
+.check-all{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    font-size: 18px;
+    font-weight: 4--;
+    color: black;
+    margin-bottom: 2vh;
+    margin-left: 7vw;
+
+}
+
+.line {
+    margin-top: 1px;
+    width: 100%;
+    height: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .line-bar {
+    background-color: #555;;
+    width: 100%;
+    height: 0.1vh;
+    border-radius: 2.5vh;
+  }
+
+.signup-form .check-one {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 4vh;
+    font-size: 14px;
+    color: black;
+    margin-left: 7vw;
+    margin-bottom: 1.5vh;
+}
+
+
+
+.signup-form label input {
+    margin-right: 10px;
+}
+
+.signup-form .check-all input[type="checkbox"] {
+    transform: scale(2);
+}
+
+.signup-form .check-one input[type="checkbox"] {
+    transform: scale(1.2);
+}
+/* 체크 박스 크기 조절 */
+
+
+
+
+
+
+
+
+.join-button-container {
+    background-color: rgba(175, 50, 233, 1);
+    width: 75%;
+    height: 6vh;
+    border-radius: 1vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.25);
+  }
+  
+  .join-button-text {
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
